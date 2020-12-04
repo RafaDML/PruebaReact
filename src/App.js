@@ -5,29 +5,13 @@ import Encabezado from './Components/Encabezado';
 import Slider from './Components/Slider';
 import './assets/css/styles.css';
 import Footer from './Components/Footer';
-
+import {Route, Switch} from 'react-router-dom';
+import Routes from './Components/Routes';
 
 function App() {
   return (
 
-    <div className="App">
-      <Encabezado/>
-
-      <Slider/>
-
-      <MyComponent/>
-
-      <Peliculas/>
-
-      
-
-      <Footer/>
-    
-
-
-
-      
-    </div>
+    <Routes/>
   );
 }
 

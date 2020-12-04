@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import MensajeEstatico from './MensajeEstatico';
-
+import Encabezado from './Encabezado';
 class Peliculas extends Component{
     render(){
         return(
             <>
-            <h1>Soy un componente de peliculas</h1>
+             <Encabezado/>
+            <h1>Soy un componente de peliculas hijuesu</h1>
             <MensajeEstatico/>
             </>
         )
